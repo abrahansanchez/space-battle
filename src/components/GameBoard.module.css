@@ -1,0 +1,37 @@
+.game-container {
+    text-align: center;
+    background-color: #0b0b3b; /* Dark space-like background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }/* Center content and create a game-like UI */
+.game-container {
+  text-align: center;
+  background-color: #0b0b3b; /* Dark space-like background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  width: 60%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style health bars */
+.health-bar {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Game over message */
+.message {
+  font-size: 22px;
+  margin-top: 20px;
+  color: yellow;
+  font-weight: bold;
+}

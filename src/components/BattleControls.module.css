@@ -1,0 +1,28 @@
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .fire-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .fire-button:hover {
+    background-color: darkred;
+  }
+  
+  .restart-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .restart-button:hover {
+    background-color: darkgreen;
+  }
+  
